@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio</title>
+</head>
+<body class="dark">
+
+    <header class="header">
+      
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="./assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+        </div>
+      </div>
+
+      <div id="toggle-colors" class="colors">
+        <div id="colors-blue" data-color="hsl(214,84%,56%)" class="colors__item colors__item--blue"></div>
+
+        <div id="colors-green" data-color="hsl(150,84%,56%)" class="colors__item colors__item--green"></div>
+
+        <div id="colors-purple" data-color="hsl(276,84%,56%)" class="colors__item colors__item--purple"></div>
+
+        <div id="colors-orange" data-color="hsl(46,84%,56%)" class="colors__item colors__item--orange"></div>
+      </div>
+
+      
+    </header>
+    <h1 class="title">Mi Portfolio</h1>
+
+    <main class="main">
+
+      <section class="column column--left">
+
+        <!-- Profile card -->
+        <article class="card card--profile">
+
+          <div class="card__image-container">
+            <img src=".//assets/images/profile.jpg" alt="imagen perfil">
+          </div>
+          
+          <div class="card__header">
+            <h2 class="card__title">Guido Fortunato</h2>
+            <p class="card__subtitle">Front end developer</p>
+
+          </div>
+
+          <div class="card__body">
+
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:guido_fortunato@hotmail.com.ar">
+                guido_fortunato@hotmail.com.ar
+              </a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone icon"></i>
+              <a href="tel:5491169592489">
+                1169592489
+              </a>
+            </div>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, omnis facilis soluta odit rerum at quia odio qui architecto saepe. Incidunt voluptate expedita tempora aliquam, unde pariatur dolores at quas!
+            </p>
+
+          </div>
+
+
+        </article>
+
+
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
