@@ -4,7 +4,7 @@ const toggleText = document.querySelector('#toggle-text')
 const toggleColorBlue = document.querySelector('#colors-blue')
 const toggleColorGreen = document.querySelector('#colors-green')
 const toggleColorPurple = document.querySelector('#colors-purple')
-const toggleColorOrange = document.querySelector('#colors-orange')
+const toggleColorSalmon = document.querySelector('#colors-salmon')
 const rootStyles = document.documentElement.style //aqui tenemos todas las variables de nuestro archivo css
 
 toggleTheme.addEventListener('click', ()=>{
@@ -27,6 +27,6 @@ toggleColorGreen.addEventListener('click', (e)=>{
 toggleColorPurple.addEventListener('click', (e)=>{
     rootStyles.setProperty('--primary-color', e.target.dataset.color)
 })
-toggleColorOrange.addEventListener('click', (e)=>{
+toggleColorSalmon.addEventListener('click', (e)=>{
     rootStyles.setProperty('--primary-color', e.target.dataset.color)
 })
