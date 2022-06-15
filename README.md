@@ -1,1 +1,1 @@
-# personal portfolio made with html, css and vanilla javascript
+# Personal portfolio made with html, css and vanilla javascript
