@@ -1,0 +1,27 @@
+{
+  "profile": {
+    "rol": "Desarrollador Front-end "
+  },
+  "experience": {
+    "name": "Experiencia",
+    "first-job-title": "Operador de cobranzas - ICBC",
+    "first-job-dates": "Agosto 2012 - Mayo 2013",
+    "first-job-description": "Atención a clientes. Seguimiento, supervisión y renegociación de deudas.",
+    "second-job-title": "Operador de cobranzas - IT Collections",
+    "second-job-dates": "Septiembre 2015 - Abril 2018",
+    "second-job-description": "Coordinación de planes de pago. Seguimiento, supervisión y renegociación de las cobranzas.",
+    "last-job-title": "Desarrollador Front-end - tuentrada",
+    "last-job-dates": "Abril 2019 - Presente",
+    "last-job-description": "Generación de landing pages para los clientes. Mantenimiento y actualización del sitio web"
+  },
+  "projects": {
+    "years": "años de experiencia",
+    "button": "Código",
+    "first-project-title": "Listado de criptomonedas",
+    "first-project-description": "Listado de criptomonedas con su cotización real.",
+    "second-project-title": "Estadio obras",
+    "second-project-description": "Landing page creada para el estadio obras, en donde se muestra todos los eventos del mismo, con el detalle de cada obra.",
+    "third-project-title": "Administrador de tareas",
+    "third-project-description": "Administrador de tareas con varias funcionalidades: gestionar tus tareas, visualizar tus proyectos, ver un listado de criptomonedas con su respectiva cotización, conectar tu wallet y ver tu saldo, visualizar eventos del estadio obras. Utilización de firebase. Posee rutas protegidas y validación de formulario"
+  }
+}

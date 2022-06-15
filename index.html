@@ -1,147 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Portfolio</title>
 </head>
+
 <body class="dark">
 
-    <header class="header">
-      
-      <div class="switches">
-        <div id="toggle-theme" class="toggle-theme">
-          <img id="toggle-icon" src="./assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
-          <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+  <header class="header">
+
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="./assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <!-- <p id="toggle-text" class="toggle-theme__text">Dark mode</p> -->
+      </div>
+    </div>
+
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img class="flags__img" src="/assets/icons/es.svg" alt="img es">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img class="flags__img" src="/assets/icons/gb.svg" alt="img gb">
+      </div>
+    </div>
+
+    <div id="toggle-colors" class="colors">
+      <div id="colors-blue" data-color="#3182ED" class="colors__item colors__item--blue"></div>
+
+      <div id="colors-green" data-color="#3A9D39" class="colors__item colors__item--green"></div>
+
+      <div id="colors-purple" data-color="#A231ED" class="colors__item colors__item--purple"></div>
+
+      <div id="colors-salmon" data-color="#FF6347" class="colors__item colors__item--salmon"></div>
+    </div>
+
+
+  </header>
+
+
+  <main class="main">
+
+    <section class="column column--left">
+
+      <!-- Profile card -->
+      <article class="card card--profile">
+
+        <div class="card__image-container">
+          <img src="./assets/images/profile2.jpg" alt="imagen perfil">
         </div>
-      </div>
 
-      <div id="toggle-colors" class="colors">
-        <div id="colors-blue" data-color="#3182ED" class="colors__item colors__item--blue"></div>
+        <div class="card__header">
+          <h2 class="card__title no-margin">Guido Fortunato</h2>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Front end developer</p>
+        </div>
 
-        <div id="colors-green" data-color="#3A9D39" class="colors__item colors__item--green"></div>
+        <div class="card__body">
 
-        <div id="colors-purple" data-color="#A231ED" class="colors__item colors__item--purple"></div>
-
-        <div id="colors-salmon" data-color="#FF6347" class="colors__item colors__item--salmon"></div>
-      </div>
-
-      
-    </header>
-    
-
-    <main class="main">
-
-      <section class="column column--left">
-
-        <!-- Profile card -->
-        <article class="card card--profile">
-
-          <div class="card__image-container">
-            <img src="./assets/images/profile2.jpg" alt="imagen perfil">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:guido_fortunato@hotmail.com.ar">
+              guido_fortunato@hotmail.com.ar
+            </a>
           </div>
-          
-          <div class="card__header">
-            <h2 class="card__title no-margin">Guido Fortunato</h2>
-            <p class="card__subtitle">Front end developer</p>
-
+          <div class="card__link">
+            <i class="fas fa-phone icon"></i>
+            <a href="tel:5491169592489">
+              11-6959-2489
+            </a>
           </div>
-
-          <div class="card__body">
-
-            <div class="card__link">
-              <i class="fas fa-envelope icon"></i>
-              <a href="mailto:guido_fortunato@hotmail.com.ar">
-                guido_fortunato@hotmail.com.ar
-              </a>
+          <div class="skills">
+            <h2 class="card__title">Skills</h2>
+            <small data-section="projects" data-value="years">años de experiencia</small>
+            <div class="skills"></div>
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
             </div>
-            <div class="card__link">
-              <i class="fas fa-phone icon"></i>
-              <a href="tel:5491169592489">
-                11-6959-2489
-              </a>
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--10"></div>
             </div>
-            <div class="skills">
-              <h2 class="card__title">Skills</h2>
-
-              <div class="skills__item">
-                <p class="skills__tech">HTML</p>
-                <div class="skills__bar skills__bar--60"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech">CSS</p>
-                <div class="skills__bar skills__bar--30"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech">Javascript</p>
-                <div class="skills__bar skills__bar--50"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech">React JS</p>
-                <div class="skills__bar skills__bar--40"></div>
-              </div>
-
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Javascript</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">React JS</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Git</p>
+              <div class="skills__bar skills__bar--10"></div>
             </div>
 
           </div>
 
+        </div>
 
-        </article>
-        <article class="card card--experience">
-          <h2 class="card__title">Experiences</h2>
 
-          <div class="experience">
-           
-            <div class="experience__info">
-              <p class="experience__time">
-                Abril 2019 - Current
-              </p>
-              <h3 class="experience__job">Front end developer - tuentrada</h3>
-              <p class="experience__description">Creación de landing page para distintos venues</p>
-            </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title" data-section="experience" data-value="name">Experiences</h2>
+        <div class="padding"></div>
+        <div class="experience">
+
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="last-job-dates">
+              Abril 2019 - Current
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="last-job-title">Front end developer -
+              tuentrada</h3>
+            <p class="experience__description" data-section="experience" data-value="last-job-description">Generación de
+              landing
+              pages para los clientes. Mantenimiento y actualización del sitio
+              web</p>
           </div>
+        </div>
 
-          <div class="experience">
-            
-            <div class="experience__info">
-              <p class="experience__time">
-                Septiembre 2015 - Abril 2018
-              </p>
-              <h3 class="experience__job">Operador de cobranzas - IT Collections</h3>
-              <p class="experience__description">Coordinación de planes de
-                pago. Seguimiento, supervisión y renegociación de las
-                cobranzas.</p>
-            </div>
+        <div class="experience">
+
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="second-job-dates">
+              Septiembre 2015 - Abril 2018
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="second-job-title">Operador de cobranzas -
+              IT Collections</h3>
+            <p class="experience__description" data-section="experience" data-value="second-job-description">
+              Coordinación de planes de
+              pago. Seguimiento, supervisión y renegociación de las
+              cobranzas.</p>
           </div>
+        </div>
 
-          <div class="experience">
-            <div class="experience__info">
-              <p class="experience__time">
-                Agosto 2012 - Mayo 2013
-              </p>
-              <h3 class="experience__job">Operador de cobranzas - ICBC</h3>
-              <p class="experience__description">Atención a
-                clientes. Seguimiento, supervisión y renegociación de deudas.</p>
-            </div>
+        <div class="experience">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="first-job-dates">
+              Agosto 2012 - Mayo 2013
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">Operador de cobranzas -
+              ICBC</h3>
+            <p class="experience__description" data-section="experience" data-value="first-job-description">Atención a
+              clientes. Seguimiento, supervisión y renegociación de deudas.</p>
           </div>
+        </div>
 
-        </article>
+      </article>
 
-        <!-- <article class="card card-hobbies">
-          <h2 class="card__title">Hobbies</h2>
-          <div class="card__image-container">
-            <img src="./assets/images/hobbie.jpg" alt="man on a bike">
-          </div>
-          <h3 class="hobbie__title">Biking</h3>
-          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam provident ipsa architecto beatae tenetur, tempore minima temporibus distinctio numquam, amet soluta ab dolorem quas error iure illum! Aut, repellendus nobis?</p>
-        </article> -->
-      </section>
+    </section>
 
-      <section class="column column--right">
-          <!-- <article class="card">
+    <section class="column column--right">
+      <!-- <article class="card">
               <h2 class="card__title">Front End</h2>
               <div class="skills">
                   <div class="skills__item">
@@ -161,79 +180,76 @@
                       <div class="skills__bar skills__bar--40"></div>
                   </div>
               </div> -->
-          </article>
-          <article class="card card--project">
+      </article>
+      <article class="card card--project">
 
-            <div class="card__image-container">
-              <img src="./assets/images/project.jpg" alt="Landing page" class="card__image">
-            </div>
+        <div class="card__image-container">
+          <img src="./assets/images/task.jpg" alt="Landing page" class="card__image">
+        </div>
 
-            <div class="project">
-              <div class="project__tags">
-                <span class="project__tag">#HTML</span>
-                <span class="project__tag">#CSS</span>
-                <span class="project__tag">#JavaScript</span>
-                <span class="project__tag">#Responsive</span>
-              </div>
-              <h2 class="card__title">Landing page</h2>
-              <p class="card__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam deserunt nobis distinctio corporis non illo ad. Error fugiat sequi fuga quisquam asperiores animi ipsa, deserunt blanditiis eveniet! Autem, voluptas!</p>
-              <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sed ipsam quaerat unde illum minima, animi ab cupiditate eaque iste accusamus voluptas eum quisquam, voluptate quam dignissimos fugiat repellat fuga?</p>
-              <div class="buttons">
-                <a href="#" class="button button--primary">Demo</a>
-                <a href="#" class="button button--ghost">Code</a>
-              </div>
-            </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">React</span>
+            <span class="project__tag">Bootstrap 5</span>
+            <span class="project__tag">Responsive</span>
+            <span class="project__tag">Firebsae</span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="third-project-title">Administrador de tareas</h2>
+          <p class="card__text" data-section="projects" data-value="third-project-description">Administrador de tareas con varias funcionalidades: gestionar tus tareas, visualizar tus proyectos, ver un listado de criptomonedas con su respectiva cotización, conectar tu wallet y ver tu saldo, visualizar eventos del estadio obras. Utilización de firebase. Posee rutas protegidas y validación de formulario.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="#" class="button button--ghost" data-section="projects" data-value="button">Code</a>
+          </div>
+        </div>
 
-          </article>
-          <article class="card card--project">
+      </article>
+      <article class="card card--project">
 
-            <div class="card__image-container">
-              <img src="./assets/images/project.jpg" alt="Landing page" class="card__image">
-            </div>
+        <div class="card__image-container">
+          <img src="./assets/images/obras.jpg" alt="Landing page" class="card__image">
+        </div>
 
-            <div class="project">
-              <div class="project__tags">
-                <span class="project__tag">#HTML</span>
-                <span class="project__tag">#CSS</span>
-                <span class="project__tag">#JavaScript</span>
-                <span class="project__tag">#Responsive</span>
-              </div>
-              <h2 class="card__title">Landing page</h2>
-              <p class="card__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam deserunt nobis distinctio corporis non illo ad. Error fugiat sequi fuga quisquam asperiores animi ipsa, deserunt blanditiis eveniet! Autem, voluptas!</p>
-              <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sed ipsam quaerat unde illum minima, animi ab cupiditate eaque iste accusamus voluptas eum quisquam, voluptate quam dignissimos fugiat repellat fuga?</p>
-              <div class="buttons">
-                <a href="#" class="button button--primary">Demo</a>
-                <a href="#" class="button button--ghost">Code</a>
-              </div>
-            </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">React</span>
+            <span class="project__tag">Bootstrap 5</span>
+            <span class="project__tag">Responsive</span>
+          </div>
+          <h2 class="card__title">Estadio obras</h2>
+          <p class="card__text" data-section="projects" data-value="second-project-description">Landing page creada para
+            el estadio obras, en donde se muestra todos los eventos del mismo, con el detalle de cada obra.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="#" class="button button--ghost" data-section="projects" data-value="button">Code</a>
+          </div>
+        </div>
 
-          </article>
-          <article class="card card--project">
+      </article>
+      <article class="card card--project">
 
-            <div class="card__image-container">
-              <img src="./assets/images/project.jpg" alt="Landing page" class="card__image">
-            </div>
+        <div class="card__image-container">
+          <img src="./assets/images/project.jpg" alt="Landing page" class="card__image">
+        </div>
 
-            <div class="project">
-              <div class="project__tags">
-                <span class="project__tag">#HTML</span>
-                <span class="project__tag">#CSS</span>
-                <span class="project__tag">#JavaScript</span>
-                <span class="project__tag">#Responsive</span>
-              </div>
-              <h2 class="card__title">Landing page</h2>
-              <p class="card__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam deserunt nobis distinctio corporis non illo ad. Error fugiat sequi fuga quisquam asperiores animi ipsa, deserunt blanditiis eveniet! Autem, voluptas!</p>
-              <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sed ipsam quaerat unde illum minima, animi ab cupiditate eaque iste accusamus voluptas eum quisquam, voluptate quam dignissimos fugiat repellat fuga?</p>
-              <div class="buttons">
-                <a href="#" class="button button--primary">Demo</a>
-                <a href="#" class="button button--ghost">Code</a>
-              </div>
-            </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">React</span>
+            <span class="project__tag">Bootstrap 5</span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="first-project-title">Listado de criptomonedas</h2>
+          <p class="card__text" data-section="projects" data-value="first-project-description">Listado de las primeras 50 criptomonedas
+            con su cotización real</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="#" class="button button--ghost" data-section="projects" data-value="button">Code</a>
+          </div>
+        </div>
 
-          </article>
-          
-      </section>
-    </main>
-    <script src="./js/script.js"></script>
-  </body>
+      </article>
+
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>

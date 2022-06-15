@@ -51,6 +51,7 @@ body.dark{
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
     transition: var(--transition);
+    width: 100%;
 }
 
 .switches{
@@ -63,6 +64,22 @@ body.dark{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.flags{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item{
+    width: 25px;
+}
+
+.flags__img{
+    display: block;
     cursor: pointer;
 }
 
@@ -111,13 +128,14 @@ body.dark{
 
 .main{
     display: grid;
-    padding: 2em;
+    padding: 2em .5em;
     gap: 0.5em;
 }
 
 @media screen and (min-width:720px){
     .main{
         grid-template-columns: min-content 1fr;
+        /* padding: 2em; */
     }
 }
 
@@ -153,7 +171,7 @@ body.dark{
 
 .card__title{
     font-size: 1.2rem;
-    margin-bottom: 1em;
+    margin: 0;
 }
 
 .card__subtitle{
@@ -181,10 +199,25 @@ body.dark{
 .skills{
     padding: 1em 0;
 }
+
+.skills__header{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
+    margin-bottom: 7px;
+}
+
+.skills__tech{
+    margin: 0;
+    font-size: .8rem;
+}
+
 .skills__item{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: .7em;
 }
 
 .skills__bar, .skills__bar::after{
@@ -200,14 +233,18 @@ body.dark{
     position: absolute;
     left: -175px;
     background-color: var(--primary-color);
-    transition: var(--transition);
-    animation: skills-bar-fill 2s ease-in-out forwards;
+    /* transition: var(--transition); */
+    /* animation: skills-bar-fill 2s ease-in-out forwards; */
+
 }
 
-.skills__bar--10::after{
+/* .skills__bar--10::after{
     --skills-bar-length: 10%
+} */
+.skills__bar--10::after{
+    transform: translateX(20%)
 }
-.skills__bar--20::after{
+/* .skills__bar--20::after{
     --skills-bar-length: 20%
 }
 .skills__bar--30::after{
@@ -230,17 +267,20 @@ body.dark{
 }
 .skills__bar--90::after{
     --skills-bar-length: 90%
-}
+} */
 
+.padding{
+    padding: .5em 0;
+}
 .icon{
     margin-right: 1em;
 }
 
-@keyframes skills-bar-fill{
+/* @keyframes skills-bar-fill{
     to{
         transform: translateX(var(--skills-bar-length));
     }
-}
+} */
 
 
 
@@ -276,7 +316,7 @@ body.dark{
 .project__tags{
     display: flex;
     justify-content: space-between;
-    margin: 0.5em 0;
+    margin: 2em 0;
     font-size: 0.6rem;
     width: 275px;
 }

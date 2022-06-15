@@ -1,0 +1,27 @@
+{
+  "profile": {
+    "rol": "Front end developer"
+  },
+  "experience": {
+    "name": "Experience",
+    "first-job-title": "Collections Operator - ICBC",
+    "first-job-dates": "August 2012 - May 2013",
+    "first-job-description": "Customer service. Follow-up, supervision and renegotiation of debts.",
+    "second-job-title": "Collections Operator - IT Collections",
+    "second-job-dates": "September 2015 - April 2018",
+    "second-job-description": "Coordination of payment plans. Follow-up, supervision and renegotiation of collections..",
+    "last-job-title": "Front end developer - tuentrada",
+    "last-job-dates": "April 2019 - Present",
+    "last-job-description": "Generation of landing pages for clients. Website maintenance and updating"
+  },
+  "projects": {
+    "years": "years of experience",
+    "button": "Code",
+    "first-project-title": "Cryptos listing",
+    "first-project-description": "List of cryptocurrencies with their actual prices.",
+    "second-project-title": "Estadio obras",
+    "second-project-description": "Landing page created for 'estadio obras', where all the events of the stadium are shown, with the detail of each one of them.",
+    "third-project-title": "Task Manager",
+    "third-project-description": "Task manager with several functionalities: manage your tasks, visualize your projects, see a list of cryptocurrencies with their respective price, connect your wallet and see your balance, visualize events of 'Estadio obras'. Use of firebase. It has protected routes and form validation."
+  }
+}
