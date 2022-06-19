@@ -2,10 +2,6 @@ const toggleTheme = document.querySelector("#toggle-theme");
 const toggleIcon = document.querySelector("#toggle-icon");
 const toggleText = document.querySelector("#toggle-text");
 const toggleColors = document.querySelector("#toggle-colors");
-// const toggleColorBlue = document.querySelector('#colors-blue')
-// const toggleColorGreen = document.querySelector('#colors-green')
-// const toggleColorPurple = document.querySelector('#colors-purple')
-// const toggleColorSalmon = document.querySelector('#colors-salmon')
 const rootStyles = document.documentElement.style; //aqui tenemos todas las variables de nuestro archivo css
 const textsToChange = document.querySelectorAll("[data-section]")
 
@@ -18,7 +14,6 @@ const changeLanguage = async (language) => {
     for (const text of textsToChange) {
         const section = text.dataset.section
         const value = text.dataset.value
-        // console.log(section)
         console.log(data[section][value])
         text.innerHTML = data[section][value]
         text.innerHTML = data[section][value]
@@ -50,15 +45,3 @@ toggleColors.addEventListener("click", (e) => {
     rootStyles.setProperty("--primary-color", e.target.dataset.color);
   }
 });
-// toggleColorBlue.addEventListener('click', (e)=>{
-//     rootStyles.setProperty('--primary-color', e.target.dataset.color)
-// })
-// toggleColorGreen.addEventListener('click', (e)=>{
-//     rootStyles.setProperty('--primary-color', e.target.dataset.color)
-// })
-// toggleColorPurple.addEventListener('click', (e)=>{
-//     rootStyles.setProperty('--primary-color', e.target.dataset.color)
-// })
-// toggleColorSalmon.addEventListener('click', (e)=>{
-//     rootStyles.setProperty('--primary-color', e.target.dataset.color)
-// })
