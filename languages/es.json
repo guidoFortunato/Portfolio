@@ -22,6 +22,8 @@
     "second-project-title": "Estadio obras",
     "second-project-description": "Landing page creada para el estadio obras, en donde se muestra todos los eventos del mismo, con el detalle de cada obra.",
     "third-project-title": "Administrador de tareas",
-    "third-project-description": "Administrador de tareas con varias funcionalidades: gestionar tus tareas, visualizar tus proyectos, ver un listado de criptomonedas con su respectiva cotización, conectar tu wallet y ver tu saldo, visualizar eventos del estadio obras. Utilización de firebase. Posee rutas protegidas y validación de formulario"
+    "third-project-description": "Administrador de tareas con varias funcionalidades: gestionar tus tareas, visualizar tus proyectos, ver un listado de criptomonedas con su respectiva cotización, conectar tu wallet y ver tu saldo, visualizar eventos del estadio obras. Utilización de firebase. Posee rutas protegidas y validación de formulario.",
+    "fourth-project-title": "Registro de series",
+    "fourth-project-description": "Agregar series de forma dinámica con JS, posee validación de mail de forma manual."
   }
 }
