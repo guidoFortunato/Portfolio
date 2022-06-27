@@ -1,6 +1,6 @@
 {
   "profile": {
-    "rol": "Desarrollador Front-end "
+    "rol": "Desarrollador Front end "
   },
   "experience": {
     "name": "Experiencia",
@@ -10,8 +10,11 @@
     "second-job-title": "Operador de cobranzas - IT Collections",
     "second-job-dates": "Septiembre 2015 - Abril 2018",
     "second-job-description": "Coordinación de planes de pago. Seguimiento, supervisión y renegociación de las cobranzas.",
-    "last-job-title": "Desarrollador Front-end - tuentrada",
-    "last-job-dates": "Abril 2019 - Presente",
+    "third-job-title": "Administrativo - tuentrada",
+    "third-job-dates": "Abril 2019 - Diciembre 2021",
+    "third-job-description": "Carga de eventos, mantenimiento de la página",
+    "last-job-title": "Desarrollador Front end - tuentrada",
+    "last-job-dates": "Enero 2022 - Presente",
     "last-job-description": "Generación de landing pages para los clientes. Mantenimiento y actualización del sitio web"
   },
   "projects": {
