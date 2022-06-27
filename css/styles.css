@@ -42,6 +42,11 @@ body.dark{
     --bg-color: hsl(0,0%,15%);
     --bg-card-color: hsl(0,0%,20%);
 }
+/* body.light{
+    --text-color: hsl(0,0%,31%);
+    --bg-color: hsl(0,0%,90%);
+    --bg-card-color: hsl(0,0%,98%);
+} */
 
 .header{
     display: flex;
@@ -113,8 +118,8 @@ body.dark{
 .colors__item--green{
     --primary-color: #3A9D39;
 }
-.colors__item--purple{
-    --primary-color: hsl(276,84%,56%);
+.colors__item--yellow{
+    --primary-color: #EDCA31;
 }
 .colors__item--salmon{
     --primary-color: #FF6347;
@@ -185,9 +190,9 @@ body.dark{
 .card__link a{
     transition: all .4s;
 }
-.card__link a:hover{
+/* .card__link a:hover{
    color: #3a6daf;
-}
+} */
 
 .card__text{
     font-size: 0.9rem;
@@ -317,6 +322,7 @@ body.dark{
 .experience__description{
     font-size: .8rem;
     margin-bottom: 1.5em;
+    line-height: 20px;
 }
 
 .project__tags{
@@ -366,11 +372,11 @@ body.dark{
     border: 1px solid var(--primary-color);
     transition: all .4s;
 }
-.button--primary:hover{
+/* .button--primary:hover{
     background-color: #0c55b4;
     color: #000;
     border: 1px solid #0c55b4;
-}
+} */
 
 
 .button--ghost{
@@ -379,9 +385,9 @@ body.dark{
     border: 1px solid var(--primary-color);
     transition: all .4s;
 }
-.button--ghost:hover{
+/* .button--ghost:hover{
     background-color: #262626;
-}
+} */
 
 
 @media screen and (min-width: 760px) {

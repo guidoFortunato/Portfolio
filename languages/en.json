@@ -3,19 +3,21 @@
     "rol": "Front end developer"
   },
   "experience": {
-    "name": "Experience",
-    "first-job-title": "Collections Operator - ICBC",
+    "name": "Experiences",
+    "first-job-title": "Collections Operator",
     "first-job-dates": "August 2012 - May 2013",
     "first-job-description": "Customer service. Follow-up, supervision and renegotiation of debts.",
-    "second-job-title": "Collections Operator - IT Collections",
+    "second-job-title": "Collections Operator",
     "second-job-dates": "September 2015 - April 2018",
     "second-job-description": "Coordination of payment plans. Follow-up, supervision and renegotiation of collections..",
-    "third-job-title": "Administrative - tuentrada",
+    "third-job-title": "Administrative position",
     "third-job-dates": "April 2019 - December 2021",
-    "third-job-description": "Upload events, page maintenance",
-    "last-job-title": "Front end developer - tuentrada",
+    "third-job-company": "Company: Tuentrada",
+    "third-job-description": "Job Description: Upload events, page maintenance",
+    "last-job-title": "Front end dev",
     "last-job-dates": "January 2022 - Present",
-    "last-job-description": "Generation of landing pages for clients. Website maintenance and updating"
+    "last-job-company": "Company: Tuentrada",
+    "last-job-description": "Job Description: Generation of landing pages for clients. Website maintenance and updating"
   },
   "projects": {
     "years": "years of experience",
