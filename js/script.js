@@ -10,6 +10,7 @@ const flagsElement = document.getElementById("flags");
 const initialValuesColors =
   JSON.parse(localStorage.getItem("colors")) || "#3182ED";
 rootStyles.setProperty("--primary-color", initialValuesColors);
+const initialLanguage = JSON.parse(localStorage.getItem("language")) || 'es'
 
 const changeLanguage = async (language) => {
   try {
@@ -25,9 +26,11 @@ const changeLanguage = async (language) => {
     console.log(error);
   }
 };
+changeLanguage(initialLanguage);
 
 flagsElement.addEventListener("click", (e) => {
-  changeLanguage(e.target.parentElement.dataset.language);
+  localStorage.setItem('language',JSON.stringify(e.target.parentElement.dataset.language))
+  changeLanguage(JSON.parse(localStorage.getItem("language")));
 });
 
 toggleTheme.addEventListener("click", () => {
