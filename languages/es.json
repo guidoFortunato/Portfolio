@@ -1,6 +1,6 @@
 {
   "profile": {
-    "rol": "Desarrollador Front end "
+    "rol": "Desarrollador Front End "
   },
   "experience": {
     "name": "Experiencias",
@@ -13,11 +13,11 @@
     "third-job-title": "Administrativo",
     "third-job-dates": "Abril 2019 - Diciembre 2021",
     "third-job-company": "Empresa: Tuentrada",
-    "third-job-description": "Descripción del puesto: Carga de eventos, mantenimiento de la página.",
-    "last-job-title": "Front end dev",
+    "third-job-description": "Mantenimiento y actualización del sitio web.",
+    "last-job-title": "Front End Dev",
     "last-job-dates": "Enero 2022 - Presente",
     "last-job-company": "Empresa: Tuentrada",
-    "last-job-description": "Descripción del puesto: Generación de landing pages para los clientes. Mantenimiento y actualización del sitio web."
+    "last-job-description": "Generación de landing pages para los clientes. Mantenimiento y actualización del sitio web."
   },
   "projects": {
     "years": "años de experiencia",
