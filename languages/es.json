@@ -1,6 +1,6 @@
 {
   "profile": {
-    "rol": "Desarrollador Front End "
+    "rol": "Desarrollador Front End Jr"
   },
   "experience": {
     "name": "Experiencias",
@@ -14,7 +14,7 @@
     "third-job-dates": "Abril 2019 - Diciembre 2021",
     "third-job-company": "Empresa: Tuentrada",
     "third-job-description": "Mantenimiento y actualización del sitio web.",
-    "last-job-title": "Front End Dev",
+    "last-job-title": "Desarrollador Front End Jr",
     "last-job-dates": "Enero 2022 - Presente",
     "last-job-company": "Empresa: Tuentrada",
     "last-job-description": "Generación de landing pages para los clientes. Mantenimiento y actualización del sitio web."
@@ -25,9 +25,9 @@
     "first-project-title": "Listado de criptomonedas",
     "first-project-description": "Listado de criptomonedas con su cotización real y el detalle de cada una.",
     "second-project-title": "Estadio obras",
-    "second-project-description": "Landing page creada para el estadio obras, en donde se muestra todos los eventos del mismo, con el detalle de cada obra.",
+    "second-project-description": "Landing page creada para el 'Estadio obras', en donde se muestra todos los eventos del mismo, con el detalle de cada obra.",
     "third-project-title": "Administrador de tareas",
-    "third-project-description": "Administrador de tareas con varias funcionalidades: gestionar tus tareas, visualizar tus proyectos, ver un listado de criptomonedas con su respectiva cotización, conectar tu wallet y ver tu saldo, visualizar eventos del estadio obras. Utilización de firebase. Posee rutas protegidas y validación de formulario.",
+    "third-project-description": "Administrador de tareas con varias funcionalidades: gestionar tus tareas, visualizar tus proyectos, ver un listado de criptomonedas con su respectiva cotización. Utilización de firebase. Posee rutas protegidas y validación de formulario.",
     "fourth-project-title": "Registro de series",
     "fourth-project-description": "Agregar series de forma dinámica con JS, posee validación de mail de forma manual."
   }

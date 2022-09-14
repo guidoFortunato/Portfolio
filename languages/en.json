@@ -1,6 +1,6 @@
 {
   "profile": {
-    "rol": "Front end developer"
+    "rol": "Front End Developer Jr"
   },
   "experience": {
     "name": "Experiences",
@@ -9,12 +9,12 @@
     "first-job-description": "Customer service. Follow-up, supervision and renegotiation of debts.",
     "second-job-title": "Collections Operator",
     "second-job-dates": "September 2015 - April 2018",
-    "second-job-description": "Coordination of payment plans. Follow-up, supervision and renegotiation of collections..",
+    "second-job-description": "Coordination of payment plans. Follow-up, supervision and renegotiation of collections.",
     "third-job-title": "Administrative position",
     "third-job-dates": "April 2019 - December 2021",
     "third-job-company": "Company: Tuentrada",
     "third-job-description": "Website maintenance and updating",
-    "last-job-title": "Front End Dev",
+    "last-job-title": "Front End Developer Jr",
     "last-job-dates": "January 2022 - Present",
     "last-job-company": "Company: Tuentrada",
     "last-job-description": "Generation of landing pages for clients. Website maintenance and updating"
@@ -27,7 +27,7 @@
     "second-project-title": "Estadio obras",
     "second-project-description": "Landing page created for 'Estadio obras', where all the events of the stadium are shown, with the detail of each one of them.",
     "third-project-title": "Task Manager",
-    "third-project-description": "Task manager with several functionalities: manage your tasks, visualize your projects, see a list of cryptocurrencies with their respective price, connect your wallet and see your balance, visualize events of 'Estadio obras'. Use of firebase. It has protected routes and form validation.",
+    "third-project-description": "Task manager with several functionalities: manage your tasks, visualize your projects, see a list of cryptocurrencies with their respective price. Use of firebase. It has protected routes and form validation.",
     "fourth-project-title": "Series registration",
     "fourth-project-description": "Add series dynamically with JS, has manual mail validation."
   }
