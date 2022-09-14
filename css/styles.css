@@ -347,10 +347,3 @@ body.dark{
     margin: 0;
 }
 
-
-@media screen and (min-width: 720px) {
-    .skills__tech{
-        padding-right: 15px;
-    }
-}
-
