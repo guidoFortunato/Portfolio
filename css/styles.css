@@ -31,22 +31,13 @@ body{
     /* padding-top: 75px; */
 }
 
-/* @media screen and (min-width: 760px) {
-    body {
-      padding-top: 0;
-    }
-} */
+
 
 body.dark{
     --text-color: hsl(0,0%,83%);
     --bg-color: hsl(0,0%,15%);
     --bg-card-color: hsl(0,0%,20%);
 }
-/* body.light{
-    --text-color: hsl(0,0%,31%);
-    --bg-color: hsl(0,0%,90%);
-    --bg-card-color: hsl(0,0%,98%);
-} */
 
 .header{
     display: flex;
@@ -144,10 +135,6 @@ body.dark{
     }
 }
 
-/* .column{
-    display: grid;
-    gap: .5em;
-} */
 
 @media screen and (min-width:720px){
     .column--right{
@@ -244,41 +231,14 @@ body.dark{
     position: absolute;
     left: -175px;
     background-color: var(--primary-color);
-    /* transition: var(--transition); */
-    /* animation: skills-bar-fill 2s ease-in-out forwards; */
+  
 
 }
 
-/* .skills__bar--10::after{
-    --skills-bar-length: 10%
-} */
+
 .skills__bar--10::after{
     transform: translateX(20%)
 }
-/* .skills__bar--20::after{
-    --skills-bar-length: 20%
-}
-.skills__bar--30::after{
-    --skills-bar-length: 30%
-}
-.skills__bar--40::after{
-    --skills-bar-length: 40%
-}
-.skills__bar--50::after{
-    --skills-bar-length: 50%
-}
-.skills__bar--60::after{
-    --skills-bar-length: 60%
-}
-.skills__bar--70::after{
-    --skills-bar-length: 70%
-}
-.skills__bar--80::after{
-    --skills-bar-length: 80%
-}
-.skills__bar--90::after{
-    --skills-bar-length: 90%
-} */
 
 .padding{
     padding: .5em 0;
@@ -286,12 +246,6 @@ body.dark{
 .icon{
     margin-right: 1em;
 }
-
-/* @keyframes skills-bar-fill{
-    to{
-        transform: translateX(var(--skills-bar-length));
-    }
-} */
 
 
 
@@ -321,7 +275,6 @@ body.dark{
 }
 .experience__description{
     font-size: .8rem;
-    /* margin-bottom: 1.5em; */
     line-height: 20px;
 }
 
@@ -372,11 +325,6 @@ body.dark{
     border: 1px solid var(--primary-color);
     transition: all .4s;
 }
-/* .button--primary:hover{
-    background-color: #0c55b4;
-    color: #000;
-    border: 1px solid #0c55b4;
-} */
 
 
 .button--ghost{
@@ -385,9 +333,6 @@ body.dark{
     border: 1px solid var(--primary-color);
     transition: all .4s;
 }
-/* .button--ghost:hover{
-    background-color: #262626;
-} */
 
 
 @media screen and (min-width: 760px) {
@@ -400,5 +345,12 @@ body.dark{
 
 .no-margin{
     margin: 0;
+}
+
+
+@media screen and (min-width: 720px) {
+    .skills__tech{
+        padding-right: 15px;
+    }
 }
 
