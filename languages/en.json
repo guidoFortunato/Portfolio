@@ -23,6 +23,7 @@
     "last-job-description": "Generation of landing pages for clients. Website maintenance and updating"
   },
   "projects": {
+    "technologies": "Technologies",
     "years": "years of experience",
     "button": "Code",
     "first-project-title": "Cryptos listing",
@@ -32,6 +33,8 @@
     "third-project-title": "Task Manager",
     "third-project-description": "Task manager with several functionalities: manage your tasks, visualize your projects, see a list of cryptocurrencies with their respective price. Use of firebase. It has protected routes and form validation.",
     "fourth-project-title": "Series registration",
-    "fourth-project-description": "Add series dynamically with JS, has manual mail validation."
+    "fourth-project-description": "Add series dynamically with JS, has manual mail validation.",
+    "fifth-project-title": "Gran Rex",
+    "fifth-project-description": "Website of the Gran Rex Theater of Buenos Aires"
   }
 }

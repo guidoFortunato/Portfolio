@@ -23,6 +23,7 @@
     "last-job-description": "Generación de landing pages para los clientes. Mantenimiento y actualización del sitio web."
   },
   "projects": {
+    "technologies": "Tecnologías",
     "years": "años de experiencia",
     "button": "Código",
     "first-project-title": "Listado de criptomonedas",
@@ -32,6 +33,8 @@
     "third-project-title": "Administrador de tareas",
     "third-project-description": "Administrador de tareas con varias funcionalidades: gestionar tus tareas, visualizar tus proyectos, ver un listado de criptomonedas con su respectiva cotización. Utilización de firebase. Posee rutas protegidas y validación de formulario.",
     "fourth-project-title": "Registro de series",
-    "fourth-project-description": "Agregar series de forma dinámica con JS, posee validación de mail de forma manual."
+    "fourth-project-description": "Agregar series de forma dinámica con JS, posee validación de mail de forma manual.",
+    "fifth-project-title": "Gran Rex",
+    "fifth-project-description": "Sitio web del Teatro Gran Rex de Buenos Aires"
   }
 }
