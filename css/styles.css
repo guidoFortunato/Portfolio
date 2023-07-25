@@ -239,6 +239,9 @@ body.dark{
 .skills__bar--10::after{
     transform: translateX(20%)
 }
+.skills__bar--5::after{
+    transform: translateX(10%)
+}
 
 .padding{
     padding: .5em 0;
