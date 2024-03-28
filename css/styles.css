@@ -237,10 +237,10 @@ body.dark{
 
 
 .skills__bar--10::after{
-    transform: translateX(20%)
+    transform: translateX(35%)
 }
 .skills__bar--5::after{
-    transform: translateX(10%)
+    transform: translateX(20%)
 }
 
 .padding{

@@ -35,6 +35,8 @@
     "fourth-project-title": "Registro de series",
     "fourth-project-description": "Agregar series de forma dinámica con JS, posee validación de mail de forma manual.",
     "fifth-project-title": "Gran Rex",
-    "fifth-project-description": "Sitio web del Teatro Gran Rex de Buenos Aires"
+    "fifth-project-description": "Sitio web del Teatro Gran Rex de Buenos Aires",
+    "sixth-project-title": "Centro de ayuda y consultas",
+    "sixth-project-description": "Sitio web de atención al cliente para TuEntrada."
   }
 }
