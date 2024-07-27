@@ -37,6 +37,8 @@
     "fifth-project-title": "Gran Rex",
     "fifth-project-description": "Website of the Gran Rex Theater of Buenos Aires",
     "sixth-project-title": "Help Center",
-    "sixth-project-description": "Customer service website for TuEntrada."
+    "sixth-project-description": "Customer service website for TuEntrada.",
+    "frameland-project-description": "I have developed an interactive platform that allows users to sign up, log in, add movies and series to personalized lists, and use advanced filters to search for content by actors and other criteria.",
+    "frameland-project-title": "Movies and Series Management Platform"
   }
 }
